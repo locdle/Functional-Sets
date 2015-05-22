@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/locdle/Functional-Sets.svg?branch=master)](https://travis-ci.org/locdle/Functional-Sets)
 
 ###2.1 Basic Functions on Sets
 Let’s start by implementing basic functions on sets.
