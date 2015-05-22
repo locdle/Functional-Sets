@@ -15,10 +15,11 @@ smaller ones.
 - 2.Define the functions union, intersect, and diff, which takes two sets, and return, respectively, their union, 
 intersection and differences. diff(s, t) returns a set which contains all the elements of the set s that are not in the set t. These functions have the following signatures:
 
-
+    <pre>
     def union(s: Set, t: Set): Set
     def intersect(s: Set, t: Set): Set
     def diff(s: Set, t: Set): Set
+    </pre>
 
 - 3.Define the function filter which selects only the elements of a set that are accepted by a given predicate p. 
 The filtered elements are returned as a new set. The signature of filter is as follows:
@@ -36,16 +37,16 @@ Note that there is no direct way to find which elements are in a set. contains o
 
 - 1.Implement forall using linear recursion. For this, use a helper function nested in forall. Its structure is as follows (replace the ???):
 
-
+    <pre>
     def forall(s: Set, p: Int => Boolean): Boolean = {
-     def iter(a: Int): Boolean = {
-       if (???) ???
-       else if (???) ???
-       else iter(???)
-     }
-     iter(???)
+        def iter(a: Int): Boolean = {
+            if (???) ???
+            else if (???) ???
+            else iter(???)
+        }
+        iter(???)
     }
-
+    </pre>
 
 - 2.Using forall, implement a function exists which tests whether a set contains at least one element for which the given predicate is true. Note that the functions forall and exists behave like the universal and existential quantifiers of first-order logic.
 
